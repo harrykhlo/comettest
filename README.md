@@ -8,9 +8,10 @@ TypeScript codes are written in TypeScript files (i.e. \*.ts) in scr folder, and
 The transpiled JavaScript codes are executed in a browser when the index.html is loaded in the browser.
 The topics below are given in the following sections:
 
-- Required Installations and
-- Transpile TypeScript into JavaScript
-- Web Browser Used
+- Required Installations;
+- Transpile TypeScript into JavaScript;
+- Web Browser Used; and
+- Notes
 
 # Required Installations
 
@@ -24,3 +25,7 @@ Executing command 'tsc -w' in Command Prompt at the directory with index.html wi
 # Web Browser Used
 
 Google Chrome Version 91.0.4472.124 is used
+
+# Notes
+
+A server (e.g. lite-server) would be required if modules are required.
